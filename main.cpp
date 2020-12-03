@@ -1,3 +1,8 @@
+  
+/*
+[ INSTITUTO FEDERAL DO NORTE DE MINAS GERAIS / CAMPUS MONTES CLAROS - TURMA 2019 DE CI√äNCIA DA COMPUTA√á√ÉO ]
+                                    ALUNO: PATRICK DUARTE PIMENTA | Ano: 2020
+*/
 #include <iostream>
 #include "hash.hpp"
 
@@ -5,7 +10,7 @@ using namespace std;
 
 int main()
 {
-                           // M”DULO:
+                           // M√ìDULO:
     Cliente a1(1,"a1");    // 1
     Cliente a2(20,"a2");   // 0
     Cliente a3(17,"a3");   // 2
@@ -29,15 +34,15 @@ int main()
     tabHash.insereHash(a2,leitura);
     tabHash.insereHash(a3,leitura);
     tabHash.insereHash(a4,leitura);
-    tabHash.insereHash(a5,leitura);  // Colis„o com a2
-    tabHash.insereHash(a6,leitura);  // Colis„o com a4
-    tabHash.insereHash(a7,leitura);  // Colis„o com a3
+    tabHash.insereHash(a5,leitura);  // Colis√£o com a2
+    tabHash.insereHash(a6,leitura);  // Colis√£o com a4
+    tabHash.insereHash(a7,leitura);  // Colis√£o com a3
     tabHash.insereHash(a8,leitura);
-    tabHash.insereHash(a9,leitura);  // Colis„o com a1
-    tabHash.insereHash(a10,leitura); // Colis„o com a3
-    tabHash.insereHash(a11,leitura); // Colis„o com a2
-    tabHash.insereHash(a12,leitura); // Colis„o com a11
-    tabHash.insereHash(a13,leitura); // Colis„o com a4
+    tabHash.insereHash(a9,leitura);  // Colis√£o com a1
+    tabHash.insereHash(a10,leitura); // Colis√£o com a3
+    tabHash.insereHash(a11,leitura); // Colis√£o com a2
+    tabHash.insereHash(a12,leitura); // Colis√£o com a11
+    tabHash.insereHash(a13,leitura); // Colis√£o com a4
 
     tabHash.imprimeHash(escrita);
 
